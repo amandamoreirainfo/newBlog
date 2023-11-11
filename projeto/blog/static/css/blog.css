@@ -1,0 +1,137 @@
+
+
+h1 a, h2 a{
+
+  
+    font-family: 'Lobster';
+    text-decoration: none;
+    color: white;
+ 
+
+}
+
+body{
+
+    
+    margin: 0;
+    width: 100%;
+
+}
+
+@media (max-width: 768px){
+
+    .page-header{
+
+        padding: 2%;
+
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px){
+
+    .page-header{
+
+        padding: 2% 5%;
+
+    }
+}
+
+@media (min-width: 1201px){
+
+    .page-header{
+
+        padding: 2% 10%;
+
+    }
+}
+
+
+.page-header{
+
+    background-color: #C25100;
+    margin-top: 0;
+    padding: 2%;
+    width: 100vw;
+    box-sizing: border-box;
+
+
+}
+
+.content{
+
+    margin-left: 40px;
+
+}
+
+h1, h2, h3, h4{
+
+    font-family: 'Lobster', cursive;
+
+}
+
+.date{
+
+    color: #828282;
+
+}
+
+.save{
+
+    float: right;
+}
+
+.page-header h1, .page-header h1 a, .page-header
+h1 a::visited, .page-header h1 a{
+
+    float: right;
+
+}
+
+.post-from textarea, .post-from input{
+
+    width: 100%;
+
+}
+
+
+.top-menu, .top-menu:hover, .top-menu:visited{
+
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+
+}
+
+.post{
+
+    margin-bottom: 70px;
+
+}
+
+.post h2 a, .post h2 a:visited{
+
+    color: #000000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
