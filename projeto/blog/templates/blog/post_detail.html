@@ -10,9 +10,16 @@
                 </div>
             {% endif %}
 
-            <h2>{{ posts.title }}</a></h2>
+            {% if user.is_authenticated %}
+                <button type="submit" name="Teste">
+                    <a class="btn btn-default" href="{% url 'post_edit' pk=posts.pk %}">
+                        <span class="glyphicon glyphicon-pencil">
+                        </span>
+                    </a>
+                </button>
+            {% endif %}
+            <h2>{{ posts.title }}</h2>
             <p>{{ posts.text|linebreaksbr }}</p>
 
         </div>    
 {% endblock %}
-     
